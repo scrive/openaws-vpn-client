@@ -45,7 +45,7 @@
         };
 
         openvpn-patched =
-          import ./openvpn.nix { inherit (pkgs) fetchpatch openvpn; };
+          import ./openvpn.nix { inherit (pkgs) openvpn; };
 
         devShell = mkShell {
           buildInputs = [ pkg-config glib gtk3 openvpn-patched ];
