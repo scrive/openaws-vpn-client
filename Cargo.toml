@@ -21,7 +21,7 @@ documentation = "https://docs.rs/openaws-vpn-client/"
 [dependencies]
 gtk = "=0.15.5"
 lazy_static = "=1.4.0"
-tokio = { version = "=1.14.0", features = ["full"] }
+tokio = { version = "=1.38.2", features = ["full"] }
 warp = "=0.3"
 dirs = "=4.0.0"
 domain = { version = "=0.6.1", features = ["tokio", "resolv"] }
